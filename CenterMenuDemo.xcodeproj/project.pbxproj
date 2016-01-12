@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAF24F641C450EDD00559DF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF24F631C450EDD00559DF9 /* main.m */; };
+		DAF24F671C450EDD00559DF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF24F661C450EDD00559DF9 /* AppDelegate.m */; };
+		DAF24F6A1C450EDD00559DF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF24F691C450EDD00559DF9 /* ViewController.m */; };
+		DAF24F6D1C450EDD00559DF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF24F6B1C450EDD00559DF9 /* Main.storyboard */; };
+		DAF24F6F1C450EDD00559DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF24F6E1C450EDD00559DF9 /* Assets.xcassets */; };
+		DAF24F721C450EDD00559DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF24F701C450EDD00559DF9 /* LaunchScreen.storyboard */; };
+		DAF24F7D1C450EDD00559DF9 /* CenterMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF24F7C1C450EDD00559DF9 /* CenterMenuDemoTests.m */; };
+		DAF24F881C450EDD00559DF9 /* CenterMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF24F871C450EDD00559DF9 /* CenterMenuDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAF24F791C450EDD00559DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF24F571C450EDD00559DF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF24F5E1C450EDD00559DF9;
+			remoteInfo = CenterMenuDemo;
+		};
+		DAF24F841C450EDD00559DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF24F571C450EDD00559DF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF24F5E1C450EDD00559DF9;
+			remoteInfo = CenterMenuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAF24F5F1C450EDD00559DF9 /* CenterMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenterMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF24F631C450EDD00559DF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAF24F651C450EDD00559DF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAF24F661C450EDD00559DF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAF24F681C450EDD00559DF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAF24F691C450EDD00559DF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAF24F6C1C450EDD00559DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF24F6E1C450EDD00559DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF24F711C450EDD00559DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAF24F731C450EDD00559DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF24F781C450EDD00559DF9 /* CenterMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenterMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF24F7C1C450EDD00559DF9 /* CenterMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterMenuDemoTests.m; sourceTree = "<group>"; };
+		DAF24F7E1C450EDD00559DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF24F831C450EDD00559DF9 /* CenterMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenterMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF24F871C450EDD00559DF9 /* CenterMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterMenuDemoUITests.m; sourceTree = "<group>"; };
+		DAF24F891C450EDD00559DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF24F5C1C450EDD00559DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF24F751C450EDD00559DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF24F801C450EDD00559DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF24F561C450EDD00559DF9 = {
+			isa = PBXGroup;
+			children = (
+				DAF24F611C450EDD00559DF9 /* CenterMenuDemo */,
+				DAF24F7B1C450EDD00559DF9 /* CenterMenuDemoTests */,
+				DAF24F861C450EDD00559DF9 /* CenterMenuDemoUITests */,
+				DAF24F601C450EDD00559DF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF24F601C450EDD00559DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF24F5F1C450EDD00559DF9 /* CenterMenuDemo.app */,
+				DAF24F781C450EDD00559DF9 /* CenterMenuDemoTests.xctest */,
+				DAF24F831C450EDD00559DF9 /* CenterMenuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF24F611C450EDD00559DF9 /* CenterMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DAF24F651C450EDD00559DF9 /* AppDelegate.h */,
+				DAF24F661C450EDD00559DF9 /* AppDelegate.m */,
+				DAF24F681C450EDD00559DF9 /* ViewController.h */,
+				DAF24F691C450EDD00559DF9 /* ViewController.m */,
+				DAF24F6B1C450EDD00559DF9 /* Main.storyboard */,
+				DAF24F6E1C450EDD00559DF9 /* Assets.xcassets */,
+				DAF24F701C450EDD00559DF9 /* LaunchScreen.storyboard */,
+				DAF24F731C450EDD00559DF9 /* Info.plist */,
+				DAF24F621C450EDD00559DF9 /* Supporting Files */,
+			);
+			path = CenterMenuDemo;
+			sourceTree = "<group>";
+		};
+		DAF24F621C450EDD00559DF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF24F631C450EDD00559DF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAF24F7B1C450EDD00559DF9 /* CenterMenuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF24F7C1C450EDD00559DF9 /* CenterMenuDemoTests.m */,
+				DAF24F7E1C450EDD00559DF9 /* Info.plist */,
+			);
+			path = CenterMenuDemoTests;
+			sourceTree = "<group>";
+		};
+		DAF24F861C450EDD00559DF9 /* CenterMenuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF24F871C450EDD00559DF9 /* CenterMenuDemoUITests.m */,
+				DAF24F891C450EDD00559DF9 /* Info.plist */,
+			);
+			path = CenterMenuDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF24F5E1C450EDD00559DF9 /* CenterMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF24F8C1C450EDD00559DF9 /* Build configuration list for PBXNativeTarget "CenterMenuDemo" */;
+			buildPhases = (
+				DAF24F5B1C450EDD00559DF9 /* Sources */,
+				DAF24F5C1C450EDD00559DF9 /* Frameworks */,
+				DAF24F5D1C450EDD00559DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CenterMenuDemo;
+			productName = CenterMenuDemo;
+			productReference = DAF24F5F1C450EDD00559DF9 /* CenterMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAF24F771C450EDD00559DF9 /* CenterMenuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF24F8F1C450EDD00559DF9 /* Build configuration list for PBXNativeTarget "CenterMenuDemoTests" */;
+			buildPhases = (
+				DAF24F741C450EDD00559DF9 /* Sources */,
+				DAF24F751C450EDD00559DF9 /* Frameworks */,
+				DAF24F761C450EDD00559DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF24F7A1C450EDD00559DF9 /* PBXTargetDependency */,
+			);
+			name = CenterMenuDemoTests;
+			productName = CenterMenuDemoTests;
+			productReference = DAF24F781C450EDD00559DF9 /* CenterMenuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAF24F821C450EDD00559DF9 /* CenterMenuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF24F921C450EDD00559DF9 /* Build configuration list for PBXNativeTarget "CenterMenuDemoUITests" */;
+			buildPhases = (
+				DAF24F7F1C450EDD00559DF9 /* Sources */,
+				DAF24F801C450EDD00559DF9 /* Frameworks */,
+				DAF24F811C450EDD00559DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF24F851C450EDD00559DF9 /* PBXTargetDependency */,
+			);
+			name = CenterMenuDemoUITests;
+			productName = CenterMenuDemoUITests;
+			productReference = DAF24F831C450EDD00559DF9 /* CenterMenuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF24F571C450EDD00559DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "张小静";
+				TargetAttributes = {
+					DAF24F5E1C450EDD00559DF9 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DAF24F771C450EDD00559DF9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DAF24F5E1C450EDD00559DF9;
+					};
+					DAF24F821C450EDD00559DF9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DAF24F5E1C450EDD00559DF9;
+					};
+				};
+			};
+			buildConfigurationList = DAF24F5A1C450EDD00559DF9 /* Build configuration list for PBXProject "CenterMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF24F561C450EDD00559DF9;
+			productRefGroup = DAF24F601C450EDD00559DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF24F5E1C450EDD00559DF9 /* CenterMenuDemo */,
+				DAF24F771C450EDD00559DF9 /* CenterMenuDemoTests */,
+				DAF24F821C450EDD00559DF9 /* CenterMenuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF24F5D1C450EDD00559DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF24F721C450EDD00559DF9 /* LaunchScreen.storyboard in Resources */,
+				DAF24F6F1C450EDD00559DF9 /* Assets.xcassets in Resources */,
+				DAF24F6D1C450EDD00559DF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF24F761C450EDD00559DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF24F811C450EDD00559DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF24F5B1C450EDD00559DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF24F6A1C450EDD00559DF9 /* ViewController.m in Sources */,
+				DAF24F671C450EDD00559DF9 /* AppDelegate.m in Sources */,
+				DAF24F641C450EDD00559DF9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF24F741C450EDD00559DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF24F7D1C450EDD00559DF9 /* CenterMenuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF24F7F1C450EDD00559DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF24F881C450EDD00559DF9 /* CenterMenuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAF24F7A1C450EDD00559DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF24F5E1C450EDD00559DF9 /* CenterMenuDemo */;
+			targetProxy = DAF24F791C450EDD00559DF9 /* PBXContainerItemProxy */;
+		};
+		DAF24F851C450EDD00559DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF24F5E1C450EDD00559DF9 /* CenterMenuDemo */;
+			targetProxy = DAF24F841C450EDD00559DF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAF24F6B1C450EDD00559DF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF24F6C1C450EDD00559DF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF24F701C450EDD00559DF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF24F711C450EDD00559DF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF24F8A1C450EDD00559DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF24F8B1C450EDD00559DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF24F8D1C450EDD00559DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CenterMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.CenterMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAF24F8E1C450EDD00559DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CenterMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.CenterMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAF24F901C450EDD00559DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CenterMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.CenterMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CenterMenuDemo.app/CenterMenuDemo";
+			};
+			name = Debug;
+		};
+		DAF24F911C450EDD00559DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CenterMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.CenterMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CenterMenuDemo.app/CenterMenuDemo";
+			};
+			name = Release;
+		};
+		DAF24F931C450EDD00559DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CenterMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.CenterMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CenterMenuDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAF24F941C450EDD00559DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CenterMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.CenterMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CenterMenuDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF24F5A1C450EDD00559DF9 /* Build configuration list for PBXProject "CenterMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF24F8A1C450EDD00559DF9 /* Debug */,
+				DAF24F8B1C450EDD00559DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF24F8C1C450EDD00559DF9 /* Build configuration list for PBXNativeTarget "CenterMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF24F8D1C450EDD00559DF9 /* Debug */,
+				DAF24F8E1C450EDD00559DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAF24F8F1C450EDD00559DF9 /* Build configuration list for PBXNativeTarget "CenterMenuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF24F901C450EDD00559DF9 /* Debug */,
+				DAF24F911C450EDD00559DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAF24F921C450EDD00559DF9 /* Build configuration list for PBXNativeTarget "CenterMenuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF24F931C450EDD00559DF9 /* Debug */,
+				DAF24F941C450EDD00559DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF24F571C450EDD00559DF9 /* Project object */;
+}

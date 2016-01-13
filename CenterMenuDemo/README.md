@@ -1,22 +1,26 @@
-//
-//  ViewController.m
-//  CenterMenuDemo
-//
-//  Created by zhangxiaojing on 16/1/12.
-//  Copyright © 2016年 张小静. All rights reserved.
-//
+# 欢迎使用CenterMenu
 
-#import "ViewController.h"
+@(示例)
 
-#import "ZXJCenterMenu.h"
-@interface ViewController ()<ZXJCenterMenuDelegate>
+**CenterMenu**主要实现的是 点击中间按钮，以中间按钮为圆心显示一圈的菜单选项，再次点击菜单选项消失。特点概述：
+ 
+- **菜单选项的数量可以自定义**  
+- **菜单选项的图片可以自定义**  
+- **菜单项的 文字可以自定义**  
 
-@end
+-------------------
 
-@implementation ViewController
+[TOC]
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+## CenterMenu简介
+
+> **CenterMenu** 是使用OC 编写的简单的库，主要实现的是 点击中间按钮，以中间按钮为圆心显示一圈的菜单选项，再次点击菜单选项消失 。如果哪里写的不好，希望大家多多指证。    —— [下载地址](https://github.com/roselind/CenterMenuDemo.git)
+
+## 使用说明
+下载[CenterMenuDemo](https://github.com/roselind/CenterMenuDemo.git)，将ZXJCenterMenu 文件夹拖入你的工程。然后在你要添加ViewController 里 导入头文件。
+
+### 代码块
+``` 
     ZXJCenterMenu * centerButton =[[ZXJCenterMenu alloc] initCenterMenuWithSubButtons:100
                                                                          centerRadius:40
                                                                             subRadius:30
@@ -35,7 +39,7 @@
                                                  fontSize:12
                                                   withTag:1];
                                        [cb subButtonImage:@"girl-minion-icon.png"
-                                                    title:@"girl"
+                                                     title:@"girl"
                                                     color:[UIColor orangeColor]
                                                  fontSize:13
                                                   withTag:2];
@@ -53,7 +57,7 @@
                                                     title:@"shy"
                                                     color:[UIColor redColor]
                                                  fontSize:13
-                                                  withTag:5];
+                                                  withTag:5];                                       
                                        [cb subButtonImage:@"happy-minion-icon.png"
                                                     title:@"happy2"
                                                     color:[UIColor blueColor]
@@ -73,19 +77,10 @@
                                                     title:@"superman2"
                                                     color:[UIColor cyanColor]
                                                  fontSize:12
-                                                  withTag:9];
+                                                  withTag:9];                                       
                                    } locationX: self.view.center.x locationY:200 toParentView:self.view];
     centerButton.delegate =self;
-}
--(void)centerMenuDidSelectedItemIndex:(NSInteger) index title:(NSString *)title{
-    NSLog(@"%s",__FUNCTION__);
-    NSLog(@"%ld----%@",index,title);
-    
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:@"被选中" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
-    }];
-    [alertController addAction:cancelAction];
-    [self presentViewController:alertController animated:YES completion:nil];
-}
 
-@end
+
+
+```

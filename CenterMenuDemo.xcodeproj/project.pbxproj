@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DABEB8621C461FCF00E0BEE4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DABEB85C1C461FCF00E0BEE4 /* README.md */; };
 		DABEB8631C461FCF00E0BEE4 /* ZXJCenterMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DABEB85F1C461FCF00E0BEE4 /* ZXJCenterMenu.m */; };
 		DABEB8641C461FCF00E0BEE4 /* ZXJSubMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DABEB8611C461FCF00E0BEE4 /* ZXJSubMenuItem.m */; };
 		DAF24F641C450EDD00559DF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF24F631C450EDD00559DF9 /* main.m */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DABEB85C1C461FCF00E0BEE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DABEB85E1C461FCF00E0BEE4 /* ZXJCenterMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJCenterMenu.h; sourceTree = "<group>"; };
 		DABEB85F1C461FCF00E0BEE4 /* ZXJCenterMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJCenterMenu.m; sourceTree = "<group>"; };
 		DABEB8601C461FCF00E0BEE4 /* ZXJSubMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJSubMenuItem.h; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				DABEB85D1C461FCF00E0BEE4 /* ZXJCenterMenu */,
-				DABEB85C1C461FCF00E0BEE4 /* README.md */,
 				DAF24F651C450EDD00559DF9 /* AppDelegate.h */,
 				DAF24F661C450EDD00559DF9 /* AppDelegate.m */,
 				DAF24F681C450EDD00559DF9 /* ViewController.h */,
@@ -293,7 +290,6 @@
 			files = (
 				DAF24F6A1C450EDD00559DF9 /* ViewController.m in Sources */,
 				DAF24F671C450EDD00559DF9 /* AppDelegate.m in Sources */,
-				DABEB8621C461FCF00E0BEE4 /* README.md in Sources */,
 				DABEB8641C461FCF00E0BEE4 /* ZXJSubMenuItem.m in Sources */,
 				DAF24F641C450EDD00559DF9 /* main.m in Sources */,
 				DABEB8631C461FCF00E0BEE4 /* ZXJCenterMenu.m in Sources */,

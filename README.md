@@ -2,6 +2,8 @@
 
 @(示例)
 
+![Gif](https://github.com/roselind/CenterMenuDemo/blob/master/demo.png)
+
 **CenterMenu**主要实现的是 点击中间按钮，以中间按钮为圆心显示一圈的菜单选项，再次点击菜单选项消失。特点概述：
  
 - **菜单选项的数量可以自定义**  
